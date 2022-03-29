@@ -1,19 +1,23 @@
 <template>
   <h1>{{ frontmatter.title }}</h1>
 
-  <h2>Ingredients</h2>
-  <ul class='nostyle'>
-    <li v-for="ingredient in frontmatter.ingredients">
-      <input type='checkbox' :id='ingredient' /><label :for='ingredient'>{{ ingredient }}</label>
-    </li>
-  </ul>
+  <div v-if="frontmatter.ingredients">
+    <h2>Ingredients</h2>
+    <ul class='nostyle'>
+      <li v-for="ingredient in frontmatter.ingredients">
+        <input type='checkbox' :id='ingredient' /><label :for='ingredient'>{{ ingredient }}</label>
+      </li>
+    </ul>
+  </div>
 
-  <h2>Instructions</h2>
-  <ol>
-    <li v-for="instruction in frontmatter.instructions">
-      {{ instruction }}
-    </li>
-  </ol>
+  <div v-if="frontmatter.instructions">
+    <h2>Instructions</h2>
+    <ol>
+      <li v-for="instruction in frontmatter.instructions">
+        {{ instruction }}
+      </li>
+    </ol>
+  </div>
 </template>
 
 <script setup >

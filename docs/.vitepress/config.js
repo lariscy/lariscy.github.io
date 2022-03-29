@@ -30,10 +30,14 @@ function getRecipeSidebar() {
     }
   ]
 
+  // TODO: 
+  //   break this out somewhere else
+  //   sort by title
+  //   maybe use a library (globby)?
   const files = fs.readdirSync(recipesPath)
   files.forEach(file => {
     const fileName = file.split('.')[0];
-    if (fileName.toLowerCase() !== 'index') {
+    if (fileName.toLowerCase() !== 'index' && fileName.toLowerCase() !== 'example') {
       returnData[0].children.push({
         text: prettyName(fileName),
         link: `/recipes/${fileName}`
