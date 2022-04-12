@@ -12,8 +12,9 @@ ingredients:
   - salt
   - pepper
 instructions:
-  - Cook sausage in a large pot
-  - Transfer the cooked sausage to a plate
+  - Cook bacon in a large pot then remove, let dry and brake into small pieces
+  - Cook sausage in bacon grease
+  - Transfer the cooked sausage to a plate with a slotted spoon saving the grease
   - Add garlic and cook until fragrant (~30 seconds)
   - Add chicken broth and potatoes and cook until tender (~23-25 minutes)
   - Stir in kale and cook until leaves are tender and bright green (~3 minutes)
