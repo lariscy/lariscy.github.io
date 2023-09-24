@@ -1,16 +1,18 @@
 ---
 title: Ham and Cheese Sliders
+
 ingredients:
-  - 1, 12-count package of Hawaiian sweet rols, slices in half
-  - 2/3 pound cooked deli ham, thinly sliced
-  - 3/4 pound swiss cheese, thinly slices
-  - 1/2 cup (1 stick) unsalted butter, melted
-  - 1 tbsp dijon mustard
-  - 1 tbsp poppy seeds
-  - 2 tbsp dried minced onion
-  - 2 tbsp Worcesteshire sauce
-  - 1/4 tsp salt, or to taste
-  - 1/4 tsp pepper, or to tase
+  - items:
+      - 1, 12-count package of Hawaiian sweet rols, slices in half
+      - 3/4 pound cooked deli ham, thinly sliced
+      - 3/4 pound swiss cheese, thinly slices
+      - 1/2 cup (1 stick) unsalted butter, melted
+      - 1 tbsp dijon mustard
+      - 1 tbsp poppy seeds
+      - 2 tsp dried minced onion
+      - 2 tsp Worcesteshire sauce
+      - 1/4 tsp salt, or to taste
+      - 1/4 tsp pepper, or to tase
 instructions:
   - Pre-heat oven to 350 degrees
   - Line a 9x9 inch or 9x13 inch pan with aluminum foil and spray with PAM
@@ -28,4 +30,4 @@ instructions:
   - Back uncovered for 3-5 minutes
 ---
 
-<Recipe/>
+<Recipe />

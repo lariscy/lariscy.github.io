@@ -1,15 +1,17 @@
 {
   "name": "lariscy.github.io",
   "version": "1.0.0",
+  "type": "module",
   "description": "Just some stuff and things I don't want to loose",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:preview": "vitepress preview docs"
   },
   "author": "lariscy",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^0.22.3"
+    "vitepress": "^1.0.0-rc.12",
+    "vue": "^3.3.4"
   }
 }

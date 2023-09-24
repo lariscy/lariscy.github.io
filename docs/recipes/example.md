@@ -1,9 +1,0 @@
----
-title: 
-ingredients:
-  - 
-instructions:
-  - 
----
-
-<Recipe/>
