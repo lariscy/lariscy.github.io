@@ -12,8 +12,10 @@ export default defineConfig({
       {
         text: "Recipes",
         base: "/recipes",
-        items: [{ text: "Biscuits", link: "/biscuits" }],
-        items: [{ text: "Meatloaf", link: "/meatloaf" }],
+        items: [
+          { text: "Biscuits", link: "/biscuits" },
+          { text: "Meatloaf", link: "/meatloaf" },
+        ],
       },
     ],
 
